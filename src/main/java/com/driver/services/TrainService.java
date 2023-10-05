@@ -98,7 +98,7 @@ public class TrainService {
         boolean found = false;
 
         for(String s : arr){
-            if(s.equals(station)){
+            if(s.equals(reqStation)){
                 found = true;
                 break;
             }
